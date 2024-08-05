@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellow; /* Attractive background color */
+    color: black;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-container button {
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: darkgreen;
+}
+
+.task-list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.task-item.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background-color: darkred;
+}
+
+.task-item .done-button {
+    background-color: blue;
+    margin-right: 10px;
+}
+
+.task-item .done-button:hover {
+    background-color: darkblue;
+}

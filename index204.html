@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <div class="task-list" id="taskList"></div>
+        <div class="calendar">
+            <h2>Calendar</h2>
+            <input type="date" id="calendarDate">
+        </div>
+        <button onclick="resetTasks()">Reset</button>
+    </div>
+    <script src="script204.js"></script>
+
